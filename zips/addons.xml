@@ -34,7 +34,7 @@
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
-        <extension point="xbmc.addon.repository" name="Reaper Crew Addon Repo">
+        <extension point="xbmc.addon.repository" name="Reaper Crew">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml.md5</checksum>
@@ -55,12 +55,6 @@
             <info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
-        </dir>
-		<dir>
-            <info compressed="false">https://raw.githubusercontent.com/Reapercrew666/reaper-crew/master/zips/addon.xml</info>
-            <checksum>https://raw.githubusercontent.com/Reapercrew666/reaper-crew/master/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/Reapercrew666/reaper-crew/master/zips/</datadir>
-			<hashes>false</hashes>
         </dir>
         </extension>
         <extension point="xbmc.addon.metadata">
