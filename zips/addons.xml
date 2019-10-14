@@ -60,6 +60,7 @@
             <info compressed="false">https://raw.githubusercontent.com/Reapercrew666/reaper-crew/master/zips/plugin.video.reaper-2.2/addon.xml</info>
             <checksum>https://raw.githubusercontent.com/Reapercrew666/reaper-crew/master/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/Reapercrew666/reaper-crew/master</datadir>
+			<hashes>false</hashes>
         </dir>
         </extension>
         <extension point="xbmc.addon.metadata">
