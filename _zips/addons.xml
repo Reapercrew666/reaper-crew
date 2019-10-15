@@ -1,12 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="{addonid}" name="{name}" version="{version}" provider-name="{author}">
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="repository.cryptrepo" name="The Crypt Repo" version="1.0.0" provider-name="Reaper Crew">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
-    <extension point="xbmc.addon.repository" name="{name}">
-        <info compressed="false">{url}{output_path}addons.xml</info>
-        <checksum>{url}{output_path}addons.xml.md5</checksum>
-        <datadir zip="true">{url}{output_path}</datadir>
+    <extension point="xbmc.addon.repository" name="The Crypt Repo">
+        <info compressed="false">https://raw.githubusercontent.com/Reapercrew666/reaper-crew/master/_zips/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Reapercrew666/reaper-crew/master/_zips/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Reapercrew666/reaper-crew/master/_zips/</datadir>
         <hashes>false</hashes>
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml</info>
@@ -16,9 +17,10 @@
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>{summary}</summary>
-        <description>{description}</description>
+        <summary>Official The Crypt Repo</summary>
+        <description>The Home of Reaper</description>
         <platform>all</platform>
         <genre>movies,usa</genre>
     </extension>
 </addon>
+</addons>
